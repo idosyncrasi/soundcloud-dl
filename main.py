@@ -150,5 +150,4 @@ def idToUrl(inp):
 	resp = rq.get(url)
 	return parse(resp)['permalink_url']
 
-user = User("https://soundcloud.com/octobersveryown")
-user.downloadLikes()
+# ADD CODE HERE
